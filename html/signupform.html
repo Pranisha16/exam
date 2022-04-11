@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <style>
+        *{
+            
+           color: yellow;
+        }
+        .container{
+            background-color:orangered;
+           
+        }
+        .form{
+            background-color: black;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding: 30px;
+            
+        }
+        #smt{
+            background-color: green;
+            color: white;
+            float: right;
+        }
+        #cnl{
+            background-color:red;
+            color: white;
+            float: right;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a>Sign Up</a>
+        <form class="form" method="">
+            <table align="center">
+                <tr>
+                    <td>First Name  </td>
+                    <td><input type="text" value="Enter First Name"></td>
+                </tr>
+                <tr>
+                    <td>Last Name  </td>
+                    <td><input type="text" value="Enter Last Name"></td>
+                </tr>
+                <tr>
+                    <td>Screen Name  </td>
+                    <td ><input type="text" value="Enter Screen Name"></td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth  </td>
+                    <td><select name="month">
+                        <option value="">January</option>
+                        <option value="">February</option>
+                        <option value="">March</option>
+                        <option value="">April</option>
+                        <option value="">May</option>
+                        <option value="">June</option>
+                        <option value="">July</option>
+                        <option value="">August</option>
+                        <option value="">September</option>
+                        <option value="">Octomber</option>
+                        <option value="">November</option>
+                        <option value="">December</option>
+                    </select>
+                    <select name="Date" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                    </select>
+                    <select name="year" id="">
+                        <option value="">2013</option>
+                        <option value="">2014</option>
+                        <option value="">2015</option>
+                        <option value="">2016</option>
+                        <option value="">2017</option>
+                        <option value="">2018</option>
+                        <option value="">2019</option>
+                        <option value="">2020</option>
+                        <option value="">2021</option>
+                        <option value="">2022</option>
+                    </select>
+                </td>
+                </tr>
+
+                <tr>
+                    <td>Gender  </td>
+                    <td>
+                        <input type="radio" >Male
+                        <input type="radio" >Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Country  </td>
+                    <td><select name="country" id="">
+                        <option value="">India</option>
+                        <option value="">USA</option>
+                        <option value="">Japan</option>
+                        <option value="">China</option>
+                        <option value="">Nepal</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td>E-mail  </td>
+                    <td><input type="email" value="Enter email"></td>
+                </tr>
+
+                <tr>
+                    <td>Phone Number  </td>
+                    <td><input type="number" value="Enter phone number"></td>
+                </tr>
+
+                <tr>
+                    <td>Password  </td>
+                    <td><input type="password" ></td>
+                </tr>
+
+                <tr>
+                    <td>Confirm Password  </td>
+                    <td><input type="password" ></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="" id=""> I agree to be Terms of Use</td>
+                </tr>
+
+            </table>
+            
+        </form>
+
+            <button id="smt" type="submit">Submit</button>
+            <button id="cnl" type="reset">Cancel</button>
+    </div>
+
+</body>
+</html>
